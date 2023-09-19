@@ -50,6 +50,15 @@ header img{
   font-weight: extra-bold;
 }
 
+.info-panel p{
+  color: #475569;
+}
+
+.info-panel .info-image-div{
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
 .quote-panel{
   background-color: #e5e7eb;
 }
@@ -106,4 +115,30 @@ header ul{
 
 .img-background img{
   margin: auto;
+}
+
+.info-panel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-panel ul{
+  list-style-type: none;
+  display:flex;
+  gap: 30px;
+  margin: 0px;
+  padding: 25px 100px 100px;
+}
+
+.info-panel li{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info-image-div{
+  margin: auto;
+  height: 150px;
+  width: 150px;
 }
