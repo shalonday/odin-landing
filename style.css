@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: Arial;
+  font-family: sans-serif;
 }
 
 button{
@@ -67,6 +67,12 @@ header img{
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
+}
+
+.quote-panel .quote-author{
+  font-size: 24px;
+  font-weight: bold;
+  color:#1f2937;
 }
 
 .cta-panel{
@@ -141,4 +147,13 @@ header ul{
   margin: auto;
   height: 150px;
   width: 150px;
+}
+
+.quote-panel{
+  display: flex;
+  flex-direction: column;
+  padding: 100px 300px;
+}
+.quote-panel .quote-author{
+  align-self: flex-end;
 }
