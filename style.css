@@ -55,4 +55,24 @@ header img{
 }
 
 /* CSS for Layout/alignment */
+body{
+  margin: 0px;
+}
 
+.hero-header-group, .info-panel, .quote-panel, .cta-panel, footer{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+header{
+  display: flex;
+  padding: 10px;
+}
+
+header ul{
+  margin: 5px 0px 0px auto;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
