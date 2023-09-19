@@ -81,3 +81,23 @@ header ul{
   justify-content: space-between;
   gap: 30px;
 }
+
+.hero-panel{
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 50px;
+}
+
+.hero-panel-text{
+  flex: 1;
+}
+
+.img-background{
+  flex: 1;
+  display:flex;
+}
+
+.img-background img{
+  margin: auto;
+}
