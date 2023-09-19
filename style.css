@@ -1,4 +1,54 @@
 body {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  font-family: Arial;
+}
+
+button{
+  background-color: #3882f6;
+}
+
+header, .hero-panel, footer{
+  background-color: #1f2937;
+}
+
+img, .hero-panel h2, footer, button, .cta-panel{
+  color: #f9faf8
+}
+
+header a, .hero-panel p{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+header img{
+  font-size: 24px;
+}
+
+.hero-panel h2{
+  font-size: 48px;
+  font-weight:bolder;
+}
+
+.info-panel, .quote-panel{
+  color: #1f2937;
+}
+
+.info-panel h2{
+  font-size: 36px;
+  font-weight: extra-bold;
+}
+
+.quote-panel{
+  background-color: #e5e7eb;
+}
+
+.quote-panel .quote{
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.cta-panel{
+  background-color: #3882f6;
 }
