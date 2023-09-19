@@ -184,3 +184,13 @@ header ul{
 .cta-panel h3, .cta-panel p{
   margin: 0;
 }
+
+footer{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer p{
+  margin: auto;
+}
