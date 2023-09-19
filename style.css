@@ -31,6 +31,10 @@ header img{
   font-weight:bolder;
 }
 
+.img-background{
+  background-color: #475569;
+}
+
 .info-panel, .quote-panel{
   color: #1f2937;
 }
