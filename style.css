@@ -6,6 +6,12 @@ body {
 
 button{
   background-color: #3882f6;
+  border-radius: 10px;
+  padding: 10px 40px;
+  border: none;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 header, .hero-panel, footer{
@@ -58,7 +64,7 @@ header img{
   background-color: #3882f6;
 }
 
-/* CSS for Layout/alignment */
+/* CSS for Layout/alignment except for button styles which apply to all buttons regardless of location */
 body{
   margin: 0px;
 }
