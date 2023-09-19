@@ -59,14 +59,14 @@ body{
   margin: 0px;
 }
 
-.hero-header-group, .info-panel, .quote-panel, .cta-panel, footer{
+header, .hero-panel, .info-panel, .quote-panel, .cta-panel, footer{
   padding-left: 200px;
   padding-right: 200px;
 }
 
 header{
   display: flex;
-  padding: 10px;
+  padding-top: 15px;
 }
 
 header ul{
@@ -75,4 +75,5 @@ header ul{
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
