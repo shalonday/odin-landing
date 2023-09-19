@@ -8,7 +8,7 @@ button{
   background-color: #3882f6;
   border-radius: 10px;
   padding: 10px 40px;
-  border: none;
+  border-style: none;
   color: #f9faf8;
   font-size: 16px;
   font-weight: bold;
@@ -79,12 +79,20 @@ header img{
   background-color: #3882f6;
 }
 
+.cta-panel h3{
+  font-size: 24px;
+}
+
+.cta-panel button{
+  border: 2px solid #e5e7eb;
+}
+
 /* CSS for Layout/alignment except for button styles which apply to all buttons regardless of location */
 body{
   margin: 0px;
 }
 
-header, .hero-panel, .info-panel, .quote-panel, .cta-panel, footer{
+header, .hero-panel, .info-panel, .quote-panel, footer{
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -156,4 +164,23 @@ header ul{
 }
 .quote-panel .quote-author{
   align-self: flex-end;
+}
+
+.cta-container{
+  display:flex;
+  padding: 100px;
+}
+
+.cta-panel{
+  margin: auto;
+  border-radius: 10px;
+  padding: 50px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
+}
+
+.cta-panel h3, .cta-panel p{
+  margin: 0;
 }
