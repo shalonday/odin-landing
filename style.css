@@ -23,6 +23,7 @@ header a, .hero-panel p{
 
 header img{
   font-size: 24px;
+  font-weight: bold
 }
 
 .hero-panel h2{
@@ -52,3 +53,6 @@ header img{
 .cta-panel{
   background-color: #3882f6;
 }
+
+/* CSS for Layout/alignment */
+
